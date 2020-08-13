@@ -345,7 +345,7 @@
 	left: 50%;
 	margin-top: -30px;
 	margin-left: -30px;
-	background: url(/assets/images/loading2.gif) center center no-repeat;
+	background: url(../../assets/images/loading2.gif) center center no-repeat;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	-ms-border-radius: 50%;
@@ -405,7 +405,7 @@
 	left: 50%;
 	margin-top: -20px;
 	margin-left: -20px;
-	background: url(/assets/images/loading2.gif) center center no-repeat;
+	background: url(../../assets/images/loading2.gif) center center no-repeat;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	-ms-border-radius: 50%;
@@ -452,7 +452,7 @@
 	width: 100%;
 	height: 100%;
 	z-index: 9;
-	background: url(/assets/images/circle.png) no-repeat center;
+	background: url(../../assets/images/circle.png) no-repeat center;
 	opacity: 0;
 	-webkit-transition: all .15s ease-out;
 	-moz-transition: all .15s ease-out;
@@ -576,35 +576,35 @@
   #cboxTopLeft {
 	width: 21px;
 	height: 21px;
-	background: url(/assets/images/controls.png) no-repeat -101px 0
+	background: url(../../assets/images/controls.png) no-repeat -101px 0
   }
   
   #cboxTopRight {
 	width: 21px;
 	height: 21px;
-	background: url(/assets/images/controls.png) no-repeat -130px 0
+	background: url(../../assets/images/controls.png) no-repeat -130px 0
   }
   
   #cboxBottomLeft {
 	width: 21px;
 	height: 21px;
-	background: url(/assets/images/controls.png) no-repeat -101px -29px
+	background: url(../../assets/images/controls.png) no-repeat -101px -29px
   }
   
   #cboxBottomRight {
 	width: 21px;
 	height: 21px;
-	background: url(/assets/images/controls.png) no-repeat -130px -29px
+	background: url(../../assets/images/controls.png) no-repeat -130px -29px
   }
   
   #cboxMiddleLeft {
 	width: 21px;
-	background: url(/assets/images/controls.png) left top repeat-y
+	background: url(../../assets/images/controls.png) left top repeat-y
   }
   
   #cboxMiddleRight {
 	width: 21px;
-	background: url(/assets/images/controls.png) right top repeat-y
+	background: url(../../assets/images/controls.png) right top repeat-y
   }
   
   #cboxTopCenter {
@@ -656,11 +656,11 @@
   }
   
   #cboxLoadingOverlay {
-	background: url(/assets/images/loading_background.png) no-repeat center center
+	background: url(../../assets/images/loading_background.png) no-repeat center center
   }
   
   #cboxLoadingGraphic {
-	background: url(/assets/images/loading.gif) no-repeat center center
+	background: url(../../assets/images/loading.gif) no-repeat center center
   }
   
   #cboxPrevious,
@@ -693,7 +693,7 @@
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	background: url(/assets/images/controls.png) no-repeat -75px 0;
+	background: url(../../assets/images/controls.png) no-repeat -75px 0;
 	width: 25px;
 	height: 25px;
 	text-indent: -9999px
@@ -707,7 +707,7 @@
 	position: absolute;
 	bottom: 0;
 	left: 27px;
-	background: url(/assets/images/controls.png) no-repeat -50px 0;
+	background: url(../../assets/images/controls.png) no-repeat -50px 0;
 	width: 25px;
 	height: 25px;
 	text-indent: -9999px
@@ -721,7 +721,7 @@
 	position: absolute;
 	bottom: 0;
 	right: 0;
-	background: url(/assets/images/controls.png) no-repeat -25px 0;
+	background: url(../../assets/images/controls.png) no-repeat -25px 0;
 	width: 25px;
 	height: 25px;
 	text-indent: -9999px
