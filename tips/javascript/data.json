@@ -6,4 +6,8 @@
     "url": "https://www.linkedin.com/posts/slobodan-gajic_javascript-tip-es6-activity-6762622032464228352-Vf05",
     "description": "Looping through objects in JavaScript!",
     "src": "../../assets/images/tips/javascript/object looping.gif"
+  }, {
+    "url": "https://www.linkedin.com/posts/slobodan-gajic_javascript-es2018-forawaitof-activity-6757557868351803392-kuaj",
+    "description": "Why for await...of is important for JavaScript!",
+    "src": "../../assets/images/tips/javascript/for-await-of.gif"
   }]}
