@@ -1,5 +1,5 @@
 {"posts": [{
     "url": "https://www.linkedin.com/posts/slobodan-gajic_typescript-interfaces-typealise-activity-6769518393096761344-Wdf3",
-    "description": "💪 Interfaces vs. Type Aliases in TypeScript! 💪 These two cause a lot of confusion, and the reason for it is because they are very similar. But there are some differences. Check the gif for more details 👇. Bottom line is that you should be using an Interface as much as possible, as it's closer to how JavaScript objects work. But if you need to use a union or tuple type, then choose Type Alias. Feel free to share this post if you find it helpful, so it can help others as well 🙌.",
+    "description": "💪 Interfaces vs. Type Aliases in TypeScript! 💪 ",
     "src": "../../assets/images/tips/typescript/interface vs type alias.gif"
   }]}
