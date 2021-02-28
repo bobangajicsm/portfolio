@@ -1,0 +1,5 @@
+{"posts": [{
+    "url": "https://www.linkedin.com/posts/slobodan-gajic_rxjs-repeatoperator-javascript-activity-6770964769487826944--ZTc",
+    "description": "If you tried before to dynamically update your styles using Vanilla JS you know how painful it can become. Luckily we have access to CSS variables, and this process is a lot easier. In this example, I capture the pointer's position and update the position of our object. Here you can play around https://lnkd.in/ecuG5nx Please check the graphic 👇 If you find this post helpful feel free to share so it can help others as well 🙌.",
+    "src": "../../assets/images/tips/rxjs/repeat-inrx-js.gif"
+  }]}
