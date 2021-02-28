@@ -2,4 +2,20 @@
     "url": "https://www.linkedin.com/posts/slobodan-gajic_javascript-tip-css-activity-6767718668030812160-qUtM",
     "description": "Use CSS Variables with JavaScript! 😎 ",
     "src": "../../assets/images/tips/javascript/using css variables.gif"
+  }, {
+    "url": "https://www.linkedin.com/posts/slobodan-gajic_javascript-tip-es6-activity-6762622032464228352-Vf05",
+    "description": "Looping through objects in JavaScript!",
+    "src": "../../assets/images/tips/javascript/object looping.gif"
+  }, {
+    "url": "https://www.linkedin.com/posts/slobodan-gajic_javascript-es2018-forawaitof-activity-6757557868351803392-kuaj",
+    "description": "Why for await...of is important for JavaScript!",
+    "src": "../../assets/images/tips/javascript/for-await-of.gif"
+  }, {
+    "url": "https://www.linkedin.com/posts/slobodan-gajic_javascript-programming-closure-activity-6754467885659291648-U14W",
+    "description": "Closures in JavaScript!",
+    "src": "../../assets/images/tips/javascript/closures.gif"
+  }, {
+    "url": "https://www.linkedin.com/posts/slobodan-gajic_javascript-oop-ecmascript-activity-6751866376794759168-H49m",
+    "description": "Private class fields in JavaScript!",
+    "src": "../../assets/images/tips/javascript/private properties.jpeg"
   }]}
