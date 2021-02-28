@@ -1,0 +1,6 @@
+{"posts": [{
+    "url": "https://www.linkedin.com/posts/slobodan-gajic_react-javascript-tip-activity-6768411099860729856-vdJy",
+    "description": "How to handle errors with error boundaries in React?! 👌 If you don't handle errors in your app, it might crash completely with just one error in the component. That is why error boundaries are helpful, you just implement getDerivedStateFromError lifecycle, and you can catch all errors in child components. Feel free to share if you like this post, so it can help others as well. Check the gif for more details 👇",
+    "src": "../../assets/images/tips/react/error boundaries.gif"
+  }]}
+
