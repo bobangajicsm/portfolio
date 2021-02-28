@@ -6,5 +6,9 @@
     "url": "https://www.linkedin.com/posts/slobodan-gajic_typescript-tip-javascript-activity-6764447642324922368-fA67",
     "description": "Type Guards in Typescript! 👋",
     "src": "../../assets/images/tips/typescript/type guards.gif"
+  }, {
+    "url": "https://www.linkedin.com/posts/slobodan-gajic_generics-typescript-javascript-activity-6759384817017651200-0rKs",
+    "description": "Generics in TypeScript!",
+    "src": "../../assets/images/tips/typescript/generics.gif"
   }
 ]}
