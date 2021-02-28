@@ -345,7 +345,7 @@
 	left: 50%;
 	margin-top: -30px;
 	margin-left: -30px;
-	background: url(../../assets/images/loading2.gif) center center no-repeat;
+	background: url(/assets/images/loading2.gif) center center no-repeat;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	-ms-border-radius: 50%;
@@ -405,7 +405,7 @@
 	left: 50%;
 	margin-top: -20px;
 	margin-left: -20px;
-	background: url(../../assets/images/loading2.gif) center center no-repeat;
+	background: url(/assets/images/loading2.gif) center center no-repeat;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	-ms-border-radius: 50%;
@@ -452,7 +452,7 @@
 	width: 100%;
 	height: 100%;
 	z-index: 9;
-	background: url(../../assets/images/circle.png) no-repeat center;
+	background: url(/assets/images/circle.png) no-repeat center;
 	opacity: 0;
 	-webkit-transition: all .15s ease-out;
 	-moz-transition: all .15s ease-out;
@@ -564,7 +564,7 @@
   }
   
   #cboxOverlay {
-	background: url(../../assets/images/overlay.png) repeat 0 0;
+	background: url(/assets/images/overlay.png) repeat 0 0;
 	opacity: .9;
 	filter: alpha(opacity=90)
   }
@@ -576,35 +576,35 @@
   #cboxTopLeft {
 	width: 21px;
 	height: 21px;
-	background: url(../../assets/images/controls.png) no-repeat -101px 0
+	background: url(/assets/images/controls.png) no-repeat -101px 0
   }
   
   #cboxTopRight {
 	width: 21px;
 	height: 21px;
-	background: url(../../assets/images/controls.png) no-repeat -130px 0
+	background: url(/assets/images/controls.png) no-repeat -130px 0
   }
   
   #cboxBottomLeft {
 	width: 21px;
 	height: 21px;
-	background: url(../../assets/images/controls.png) no-repeat -101px -29px
+	background: url(/assets/images/controls.png) no-repeat -101px -29px
   }
   
   #cboxBottomRight {
 	width: 21px;
 	height: 21px;
-	background: url(../../assets/images/controls.png) no-repeat -130px -29px
+	background: url(/assets/images/controls.png) no-repeat -130px -29px
   }
   
   #cboxMiddleLeft {
 	width: 21px;
-	background: url(../../assets/images/controls.png) left top repeat-y
+	background: url(/assets/images/controls.png) left top repeat-y
   }
   
   #cboxMiddleRight {
 	width: 21px;
-	background: url(../../assets/images/controls.png) right top repeat-y
+	background: url(/assets/images/controls.png) right top repeat-y
   }
   
   #cboxTopCenter {
@@ -656,11 +656,11 @@
   }
   
   #cboxLoadingOverlay {
-	background: url(../../assets/images/loading_background.png) no-repeat center center
+	background: url(/assets/images/loading_background.png) no-repeat center center
   }
   
   #cboxLoadingGraphic {
-	background: url(../../assets/images/loading.gif) no-repeat center center
+	background: url(/assets/images/loading.gif) no-repeat center center
   }
   
   #cboxPrevious,
@@ -693,7 +693,7 @@
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	background: url(../../assets/images/controls.png) no-repeat -75px 0;
+	background: url(/assets/images/controls.png) no-repeat -75px 0;
 	width: 25px;
 	height: 25px;
 	text-indent: -9999px
@@ -707,7 +707,7 @@
 	position: absolute;
 	bottom: 0;
 	left: 27px;
-	background: url(../../assets/images/controls.png) no-repeat -50px 0;
+	background: url(/assets/images/controls.png) no-repeat -50px 0;
 	width: 25px;
 	height: 25px;
 	text-indent: -9999px
@@ -721,7 +721,7 @@
 	position: absolute;
 	bottom: 0;
 	right: 0;
-	background: url(../../assets/images/controls.png) no-repeat -25px 0;
+	background: url(/assets/images/controls.png) no-repeat -25px 0;
 	width: 25px;
 	height: 25px;
 	text-indent: -9999px
@@ -4447,6 +4447,10 @@
   .icon-gear:before {
 	content: "\e901"
   }
+
+  .icon-tip:before {
+	content: "\e925"
+  }
   
   .icon-mail:before {
 	content: "\e902";
@@ -4665,10 +4669,14 @@
   }
   
   #nav_bar nav a:first-child+a+a+a:after {
+	content: 'TIPS'
+  }
+
+  #nav_bar nav a:first-child+a+a+a+a:after {
 	content: 'MY WORK'
   }
   
-  #nav_bar nav a:first-child+a+a+a+a:after {
+  #nav_bar nav a:first-child+a+a+a+a+a:after {
 	content: 'CONTACT'
   }
   
@@ -5153,8 +5161,38 @@
 	display: table-cell;
 	max-height: 90%
   }
+
+  .container.tips .text-zone {
+	position: absolute;
+	left: 10%;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	vertical-align: middle;
+	display: table-cell;
+	max-height: 90%;
+	width: 85%;
+  }
+
+  .container.tips .tips-tech-logo {
+    width: 100px;
+	display: inline-block;
+	cursor: pointer;	
+	margin: 0 15px;
+	transition-duration: 0.2s;
+  }
+
+  .container.tips .tips-tech-logo:hover {
+	transform: scale(1.5);
+  }
+
+  .container.tips .tips-logo-cont {
+	  text-align: center;
+  }
   
-  .container.about .text-zone h1 {
+  .container.about .text-zone h1,
+  .container.tips .text-zone h1 {
 	font-size: 53px;
 	font-family: font-file-82132;
 	color: #ffd700;
@@ -5165,7 +5203,8 @@
 	left: -10px
   }
   
-  .container.about h1 .blast {
+  .container.about h1 .blast,
+  .container.tips h1 .blast {
 	will-change: transform;
 	opacity: 0;
 	-webkit-transition: all .3s ease-out;
@@ -5177,7 +5216,8 @@
 	color: #fff;
   }
 
-  .container.about h1 .blast:hover {
+  .container.about h1 .blast:hover,
+  .container.tips h1 .blast:hover {
 	color: #fff;
   }
 
@@ -5185,7 +5225,8 @@
 	color: #fff;
   }
 
-  .container.about .text-zone h1:before {
+  .container.about .text-zone h1:before,
+  .container.tips .text-zone h1:before {
 	content: '<h1>';
 	font-family: 'La Belle Aurore', cursive;
 	color: #ffd700;
@@ -5196,7 +5237,8 @@
 	opacity: 0.6;
   }
   
-  .container.about .text-zone h1:after {
+  .container.about .text-zone h1:after,
+  .container.tips .text-zone h1:after {
 	content: '<h1/>';
 	font-family: 'La Belle Aurore', cursive;
 	color: #ffd700;
@@ -5208,7 +5250,8 @@
 	opacity: 0.6;
   }
   
-  .container.about .text-zone p {
+  .container.about .text-zone p,
+  .container.tips .text-zone p {
 	font-size: 13px;
 	color: #fff;
 	font-family: "Open Sans", sans-serif;
