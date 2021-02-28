@@ -5199,6 +5199,19 @@
 	transition-duration: 0.2s;
   }
 
+  .container.tips .inner-div-container {
+	display: inline-block;
+    background: rgba(25,25,25, 0.5);
+    padding-bottom: 15px;
+  }
+
+  .container.tips .tips-text {
+    max-width: 500px;
+    width: 100%;
+    padding: 10px;
+    margin: 30px auto 0 auto;
+  }
+
   .container.tips .tips-tech-logo:hover {
 	transform: scale(1.5);
   }

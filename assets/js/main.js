@@ -151,6 +151,7 @@ app.tipsLogo = {
               data.posts.forEach(function(post) {
               var container = document.getElementById('tips-post-container');
               var innerDiv = document.createElement('div');
+              innerDiv.setAttribute('class', 'inner-div-container');
               var par = document.createElement('p');
               par.setAttribute('class','tips-text');
               par.textContent = post.description;
