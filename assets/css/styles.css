@@ -5210,8 +5210,8 @@
     max-width: 500px;
     width: 100%;
     padding: 10px;
-	margin: 30px auto 0 auto;
-	text-align: left;
+	margin: 10px auto 0 auto;
+	font-weight: bold !important;
   }
 
   .container.tips .tips-tech-logo:hover {
