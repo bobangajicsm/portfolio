@@ -10,4 +10,8 @@
     "url": "https://www.linkedin.com/feed/update/urn:li:activity:6760097497869279232",
     "description": "How to trigger change detection manually in Angular !?",
     "src": "../../assets/images/tips/angular/change detection.gif"
+  }, {
+    "url": "https://www.linkedin.com/posts/slobodan-gajic_angular-javascripts-detectchanges-activity-6755789653992882176-GiKo",
+    "description": "How to detect input changes in Angular?",
+    "src": "../../assets/images/tips/angular/input changes.gif"
   }]}
