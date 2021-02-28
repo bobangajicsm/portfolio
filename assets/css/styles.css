@@ -5202,7 +5202,8 @@
   .container.tips .inner-div-container {
 	display: inline-block;
     background: rgba(25,25,25, 0.5);
-    padding-bottom: 15px;
+	padding-bottom: 15px;
+	margin: 10px;
   }
 
   .container.tips .tips-text {
