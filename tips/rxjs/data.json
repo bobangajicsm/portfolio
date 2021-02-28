@@ -6,4 +6,8 @@
     "url": "https://www.linkedin.com/feed/update/urn:li:activity:6766016266571452416",
     "description": "⚔️ Subject vs Behaviour Subject in RxJS! ⚔️",
     "src": "../../assets/images/tips/rxjs/subject vs b subject.gif"
+  }, {
+    "url": "https://www.linkedin.com/posts/slobodan-gajic_rxjs-javascript-tip-activity-6760816518130384896-up7A",
+    "description": "How to handle errors when using ForkJoin in RxJs?",
+    "src": "../../assets/images/tips/rxjs/repeat-inrx-js.gif"
   }]}
