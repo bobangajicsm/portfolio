@@ -33,9 +33,9 @@
       name="twitter:title"
       content="Front End Developer | Angular Expert - Freelancer"
     />
-    <link rel="stylesheet" href="assets/css/animate.css" />
-    <link rel="stylesheet" href="assets/css/font-awesome.css" />
-    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="../../assets/css/animate.css" />
+    <link rel="stylesheet" href="../../assets/css/font-awesome.css" />
+    <link rel="stylesheet" href="../../assets/css/styles.css" />
     <script>
       var requested = "";
       var path = "http://gajicslobodan.ga/portfolio/port/";
@@ -58,7 +58,7 @@
       integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
       crossorigin=""
     />
-    <link href="assets/fonts/all.css" rel="stylesheet"> 
+    <link href="../../assets/fonts/all.css" rel="stylesheet"> 
     <script
       src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"
       integrity="sha512-/Nsx9X4HebavoBvEBuyp3I7od5tA0UzAxs+j83KgC8PU0kgB4XiK4Lfe4y4cgBtaRJQEIFCW+oC506aPT2L1zw=="
@@ -109,12 +109,12 @@
     <div id="nav_bar">
       <a class="logo" rel="index" href="#">
         <img
-          src="assets/images/logo-s.png"
+          src="../../assets/images/logo-s.png"
           alt="JavaScript Developer Logo, Web Developer Logo , Front End Developer Logo"
         />
         <img
           class="sub-logo"
-          src="assets/images/logo_sub.png"
+          src="../../assets/images/logo_sub.png"
           alt="JavaScript Developer, Web Developer , Front End Developer"
         />
       </a>
@@ -170,20 +170,10 @@
       <div class="container tips">
         <span class="tags top-tags"> &nbsp;&nbsp;&nbsp;&lt;body&gt;</span>
         <div class="text-zone">
-          <h1>Frontend Tips</h1>
-          <p class="tips-logo-cont">
-            <a href="tips/javascript/javascript.html">
-              <img rel="javascript-tips" class="tips-tech-logo" src="assets/images/tips/javascript.png" alt="javascript" />
-            </a>
-              <img class="tips-tech-logo" src="assets/images/tips/typescript.svg" alt="typescript" />
-            <img class="tips-tech-logo" src="assets/images/tips/angular.png" alt="angular" />
-            <img class="tips-tech-logo" src="assets/images/tips/react.png" alt="react" />
-            <img class="tips-tech-logo" src="assets/images/tips/css.png" alt="css" />
-          </p>          
+          <h1>Angular Tips</h1>
+          <div id="tips-post-container"></div>         
           <div class="clear"></div>
         </div>
-
-       
         <span class="tags bottom-tags">
           &nbsp;&nbsp;&nbsp;&lt;/body&gt;<br />
           &lt;/html&gt;
@@ -207,7 +197,7 @@
     <div class="preloader">
       <div class="inner">
         <img
-          src="assets/images/logopreload.png"
+          src="../../assets/images/logopreload.png"
           alt="JavaScript Developer Loader, Web Developer Loader , Front End Developer Loader"
         />
         <span>Slobodan is working</span>
@@ -217,18 +207,53 @@
       </div>
     </div>
     <div id="rotate"></div>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.drawsvg.js"></script>
-    <script src="assets/js/jquery.blast.min.js"></script>
-    <script src="assets/js/jquery.tagcanvas.js"></script>
-    <script src="assets/js/alertify.min.js"></script>
-    <script src="assets/js/magicWall.js"></script>
-    <script src="assets/js/colorBox.js"></script>
-    <script src="assets/js/tweenMax.min.js"></script>
+    <script src="../../assets/js/jquery.min.js"></script>
+    <script src="../../assets/js/jquery.drawsvg.js"></script>
+    <script src="../../assets/js/jquery.blast.min.js"></script>
+    <script src="../../assets/js/jquery.tagcanvas.js"></script>
+    <script src="../../assets/js/alertify.min.js"></script>
+    <script src="../../assets/js/magicWall.js"></script>
+    <script src="../../assets/js/colorBox.js"></script>
+    <script src="../../assets/js/tweenMax.min.js"></script>
     <script>
       var app = {};
       app.ajax = null;
     </script>
-    <script src="assets/js/main.js"></script>
+    <script src="../../assets/js/main.js"></script>
+    <script>
+            (function () {
+                $.ajax({
+                    'async': false,
+                    'global': false,
+                    'url': './data.json',
+                    'dataType': "json",
+                    'success': function (data) {
+                        data.posts.forEach(function(post) {
+                        var container = document.getElementById('tips-post-container');
+                        var innerDiv = document.createElement('div');
+                        var par = document.createElement('p');
+                        par.setAttribute('class','tips-text');
+                        par.textContent = post.description;
+
+                        innerDiv.appendChild(par);
+
+                        var link = document.createElement('a');
+                        link.setAttribute('target','_blank');
+                        link.setAttribute('href', post.url);
+                        
+                        var img = document.createElement('img');
+                        img.setAttribute('class', 'tips-image');
+                        img.setAttribute('src', post.src);
+                        link.appendChild(img);
+                        innerDiv.appendChild(link);
+                        container.appendChild(innerDiv);
+                    });
+                    }
+                });
+            })();
+
+        
+        
+      </script>
   </body>
 </html>
