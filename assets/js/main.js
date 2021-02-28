@@ -138,6 +138,41 @@ app.tips = {
   },
 };
 
+app.tipsLogo = {
+  init: function() {
+    (function () {
+      $.ajax({
+          'async': false,
+          'global': false,
+          'url': './data.json',
+          'dataType': "json",
+          'success': function (data) {
+              data.posts.forEach(function(post) {
+              var container = document.getElementById('tips-post-container');
+              var innerDiv = document.createElement('div');
+              var par = document.createElement('p');
+              par.setAttribute('class','tips-text');
+              par.textContent = post.description;
+
+              innerDiv.appendChild(par);
+
+              var link = document.createElement('a');
+              link.setAttribute('target','_blank');
+              link.setAttribute('href', post.url);
+              
+              var img = document.createElement('img');
+              img.setAttribute('class', 'tips-image');
+              img.setAttribute('src', post.src);
+              link.appendChild(img);
+              innerDiv.appendChild(link);
+              container.appendChild(innerDiv);
+          });
+          }
+      });
+  })();
+  },
+};
+
 app.contact = {
   init: function () {
     $(".contact h1").blast({
@@ -475,6 +510,8 @@ app.ui = {
       app.contact.init();
     } else if (rel == "tips") {
       app.tips.init();
+    } else if (rel == "tips-logo") {
+      app.tipsLogo.init();
     }
   },
   particle: false,
