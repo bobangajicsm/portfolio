@@ -466,7 +466,7 @@ app.ui = {
     ) {
       e.preventDefault();
       $("body").removeClass("no-overflow");
-      if (!$(this).hasClass("active")) {
+      if (!$(this).hasClass("active") || $(this).attr("rel") === 'tips') {
         if (app.ui.pageLoad($(this).attr("href"), $(this).attr("rel"))) {
 
           if($(this).attr("rel") !== 'tips-logo') {
