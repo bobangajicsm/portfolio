@@ -468,9 +468,12 @@ app.ui = {
       $("body").removeClass("no-overflow");
       if (!$(this).hasClass("active")) {
         if (app.ui.pageLoad($(this).attr("href"), $(this).attr("rel"))) {
-          console.log($(this).attr("rel"));
-          $("#nav_bar nav a.active").removeClass("active");
-          $(this).addClass("active");
+
+          if($(this).attr("rel") !== 'tips-logo') {
+            $("#nav_bar nav a.active").removeClass("active");
+            $(this).addClass("active");
+          }
+          
           window.history.pushState("", "", $(this).attr("href"));
         }
       }
