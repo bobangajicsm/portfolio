@@ -76,6 +76,7 @@ app.home = {
     });
   },
 };
+
 app.about = {
   init: function () {
     $(".about h1").blast({
@@ -276,10 +277,12 @@ app.contact = {
     }
   },
 };
+
 function validateEmail(email) {
   var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
   return re.test(email);
 }
+
 function initMap() {
   // position we will use later
   var lat = 44.96366;
@@ -334,6 +337,7 @@ app.gallery = {
     }, 2000);
   },
 };
+
 app.skills = {
   init: function () {
     $(".skills h1").blast({
@@ -392,6 +396,7 @@ app.skills = {
     }, 2000);
   },
 };
+
 app.text = {
   init: function () {
     $(".text-page h1").blast({
@@ -675,6 +680,9 @@ if (requested != "true") {
   }
   if ($(".container.tips").size() > 0) {
     app.tips.init();
+  }
+  if ($(".container.tips.logo-tips").size() > 0) {
+    app.tipsLogo.init();
   }
   if ($(".container.text-page").size() > 0) {
     app.text.init();
