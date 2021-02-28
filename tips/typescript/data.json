@@ -10,5 +10,8 @@
     "url": "https://www.linkedin.com/posts/slobodan-gajic_generics-typescript-javascript-activity-6759384817017651200-0rKs",
     "description": "Generics in TypeScript!",
     "src": "../../assets/images/tips/typescript/generics.gif"
-  }
-]}
+  }, {
+    "url": "https://www.linkedin.com/posts/slobodan-gajic_typescript-javascripts-oop-activity-6755395242859540480-LCvE",
+    "description": "TypeScript Getters and Setters!",
+    "src": "../../assets/images/tips/typescript/getters and setters.gif"
+  }]}
