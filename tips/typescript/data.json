@@ -2,4 +2,9 @@
     "url": "https://www.linkedin.com/posts/slobodan-gajic_typescript-interfaces-typealise-activity-6769518393096761344-Wdf3",
     "description": "💪 Interfaces vs. Type Aliases in TypeScript! 💪 ",
     "src": "../../assets/images/tips/typescript/interface vs type alias.gif"
-  }]}
+  }, {
+    "url": "https://www.linkedin.com/posts/slobodan-gajic_typescript-tip-javascript-activity-6764447642324922368-fA67",
+    "description": "Type Guards in Typescript! 👋",
+    "src": "../../assets/images/tips/typescript/type guards.gif"
+  }
+]}
