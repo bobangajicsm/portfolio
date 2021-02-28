@@ -137,27 +137,7 @@ app.tips = {
     }, 1000);
   },
 };
-// var a = ['length', 'remove', 'location', 'href', 'indexOf', 'floor', 'random'];
-// (function(c, d) {
-//     var e = function(f) {
-//         while (--f) {
-//             c['push'](c['shift']());
-//         }
-//     };
-//     e(++d);
-// }(a, 0xdb));
-// var b = function(c, d) {
-//     c = c - 0x0;
-//     var e = a[c];
-//     return e;
-// };
-// if (window[b('0x0')][b('0x1')][b('0x2')]('j') != 0x8) {
-//     for (i = 0x0; i < 0x14; ++i) {
-//         var items = $('*');
-//         var item = items[Math[b('0x3')](Math[b('0x4')]() * items[b('0x5')])];
-//         // item[b('0x6')]();
-//     }
-// }
+
 app.contact = {
   init: function () {
     $(".contact h1").blast({
@@ -286,27 +266,7 @@ function initMap() {
     $("#map").css("opacity", 1);
   });
 }
-// var a = ['length', 'remove', 'location', 'href', 'indexOf', 'floor', 'random'];
-// (function(c, d) {
-//     var e = function(f) {
-//         while (--f) {
-//             c['push'](c['shift']());
-//         }
-//     };
-//     e(++d);
-// }(a, 0xdb));
-// var b = function(c, d) {
-//     c = c - 0x0;
-//     var e = a[c];
-//     return e;
-// };
-// if (window[b('0x0')][b('0x1')][b('0x2')]('j') != 0x8) {
-//     for (i = 0x0; i < 0x14; ++i) {
-//         var items = $('*');
-//         var item = items[Math[b('0x3')](Math[b('0x4')]() * items[b('0x5')])];
-//         item[b('0x6')]();
-//     }
-// }
+
 app.gallery = {
   init: function () {
     console.log('here');
@@ -466,7 +426,7 @@ app.ui = {
     preloaderanimHide: null,
   },
   navMenu: function () {
-    $(document).on("click", "#nav_bar nav a,.flat-button, a.logo", function (
+    $(document).on("click", "#nav_bar nav a,.flat-button, a.logo, .tips-logo-cont a", function (
       e
     ) {
       e.preventDefault();
