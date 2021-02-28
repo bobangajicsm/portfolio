@@ -1,5 +1,5 @@
 {"posts": [{
     "url": "https://www.linkedin.com/posts/slobodan-gajic_rxjs-repeatoperator-javascript-activity-6770964769487826944--ZTc",
-    "description": "🔁 How to use repeat operator in RxJs? 🔁If you have a successful subscription that you want to repeat, but of course with a different set of parameters, you can use repeat operator for that. Check the image for implementation 👇 If you find this post helpful, feel free to share so it can help others as well 👐.",
+    "description": "🔁 How to use repeat operator in RxJs? 🔁",
     "src": "../../assets/images/tips/rxjs/repeat-inrx-js.gif"
   }]}

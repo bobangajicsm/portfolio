@@ -1,5 +1,5 @@
 {"posts": [{
     "url": "https://www.linkedin.com/posts/slobodan-gajic_angular-javascript-tip-activity-6770236055904944128-Oroh",
-    "description": "👋 Theming with CSS3 variables in Angular! 👋 Some benefits in using CSS3 variables over SASS based are: You can override the value of existing custom prop You can include theme from external source or API call Better performance as we can only load one file per theme change Con is that it doesn’t work on IE11. If you find this helpful feel free to share, so it can help others as well. Have you tried this approach before? Check the gif for details 👇",
+    "description": "👋 Theming with CSS3 variables in Angular! 👋 ",
     "src": "../../assets/images/tips/angular/theming-with-css.gif"
   }]}
