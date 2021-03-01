@@ -5181,6 +5181,14 @@
     text-align: center;
   }
 
+  .simplebar-scrollbar:before {
+	background: #FFD701;
+  }
+
+  .simplebar-scrollbar.simplebar-visible:before {
+	opacity: 1;
+  }
+
   .container.tips .tips-image {
 	  height: 50vh;
   }
