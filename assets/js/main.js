@@ -172,6 +172,8 @@ app.tipsLogo = {
           }
       });
   })();
+
+  new SimpleBar(document.getElementById('myElement'));
   },
 };
 

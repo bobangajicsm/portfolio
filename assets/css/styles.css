@@ -5266,6 +5266,7 @@
 	margin-top: -10px;
 	left: -10px;
 	opacity: 0.6;
+	line-height: 18px;
   }
   
   .container.about .text-zone h1:after,
@@ -5274,6 +5275,7 @@
 	font-family: 'La Belle Aurore', cursive;
 	color: #ffd700;
 	font-size: 18px;
+	line-height: 18px;
 	position: absolute;
 	left: -30px;
 	bottom: -20px;
@@ -6415,7 +6417,7 @@
 	#nav_bar nav a {
 	  float: left;
 	  margin-left: 14%;
-	  line-height: 60px;
+	  line-height: 7px;
 	  height: 60px
 	}
 	#nav_bar nav a:first-child {
@@ -6549,9 +6551,6 @@
   }
   
   @media (max-width:750px) {
-	#nav_bar nav a {
-	  margin-left: 10%
-	}
 	h1 {
 	  font-size: 47px !important;
 	  line-height: 40px !important
@@ -6629,7 +6628,7 @@
 	  margin-left: 0 !important;
 	  line-height: 60px;
 	  height: 60px;
-	  width: 20%
+	  width: 16.5%
 	}
 	#nav_bar nav.show {
 	  left: 0;
