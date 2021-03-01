@@ -5182,11 +5182,11 @@
   }
 
   .simplebar-scrollbar:before {
-	background: #FFD701;
+	background: #FFD701 !important;
   }
 
   .simplebar-scrollbar.simplebar-visible:before {
-	opacity: 1;
+	opacity: 1 !important;
   }
 
   .container.tips .tips-image {
