@@ -172,8 +172,7 @@ app.tipsLogo = {
           }
       });
   })();
-
-  new SimpleBar(document.getElementById('myElement'));
+    new SimpleBar(document.getElementById('tips-post-container'));
   },
 };
 
