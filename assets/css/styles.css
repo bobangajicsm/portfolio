@@ -5208,10 +5208,11 @@
   }
 
   .container.tips .inner-div-container {
-	display: inline-block;
-    background: rgba(25,25,25, 0.5);
-	padding-bottom: 15px;
-	margin: 10px;
+	background: rgba(25,25,25, 0.5);
+    padding: 0 15px 15px;
+    margin: 10px auto;
+    width: fit-content;
+    clear: both;
   }
 
   .container.tips .tips-text {
