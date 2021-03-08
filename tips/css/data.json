@@ -1,4 +1,8 @@
 {"posts": [{
+  "url": "https://www.linkedin.com/posts/slobodan-gajic_css3-flexbox-tip-activity-6773501970939469824-pVkZ",
+  "description": "🤔 How to make a div to fill the rest of your page!? 🤔",
+  "src": "../../assets/images/tips/css/make-div-fill-rest-of-the-space-animated.gif"
+  },{
     "url": "https://www.linkedin.com/posts/slobodan-gajic_css3-frontend-tip-activity-6766981711487143936--81p",
     "description": "Variable Fonts",
     "src": "../../assets/images/tips/css/variable-fonts.gif"
@@ -14,8 +18,4 @@
     "url": "https://www.linkedin.com/posts/slobodan-gajic_css-alignment-frontend-activity-6753673123243065345-T6yi",
     "description": "How to remove white space between inline-block elements in CSS?",
     "src": "../../assets/images/tips/css/removing-space.jpeg"
-  }, {
-    "url": "https://www.linkedin.com/posts/slobodan-gajic_css3-flexbox-tip-activity-6773501970939469824-pVkZ",
-    "description": "🤔 How to make a div to fill the rest of your page!? 🤔",
-    "src": "../../assets/images/tips/css/make-div-fill-rest-of-the-space-animated.gif"
   }]}
