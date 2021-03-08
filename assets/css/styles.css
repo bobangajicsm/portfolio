@@ -5297,7 +5297,8 @@
 	font-size: 13px;
 	color: #fff;
 	font-family: "Open Sans", sans-serif;
-	font-weight: 300
+	font-weight: 300;
+	max-width: fit-content;
   }
   
   @-webkit-keyframes spincube {
