@@ -1,21 +1,34 @@
-{"posts": [{
-    "url": "https://www.linkedin.com/posts/slobodan-gajic_typescript-interfaces-typealise-activity-6769518393096761344-Wdf3",
-    "description": "💪 Interfaces vs. Type Aliases in TypeScript! 💪 ",
-    "src": "../../assets/images/tips/typescript/interface vs type alias.gif"
-  }, {
-    "url": "https://www.linkedin.com/posts/slobodan-gajic_typescript-tip-javascript-activity-6764447642324922368-fA67",
-    "description": "Type Guards in Typescript! 👋",
-    "src": "../../assets/images/tips/typescript/type guards.gif"
-  }, {
-    "url": "https://www.linkedin.com/posts/slobodan-gajic_generics-typescript-javascript-activity-6759384817017651200-0rKs",
-    "description": "Generics in TypeScript!",
-    "src": "../../assets/images/tips/typescript/generics.gif"
-  }, {
-    "url": "https://www.linkedin.com/posts/slobodan-gajic_typescript-javascripts-oop-activity-6755395242859540480-LCvE",
-    "description": "TypeScript Getters and Setters!",
-    "src": "../../assets/images/tips/typescript/getters and setters.gif"
-  }, {
-    "url": "https://www.linkedin.com/posts/slobodan-gajic_typescript-ecmascript-javascript-activity-6749298292447883264-FrN7",
-    "description": "Optional chaining in TypeScript",
-    "src": "../../assets/images/tips/typescript/optional chaining.jpeg"
-  }]}
+{
+  "posts": [
+    {
+      "url": "https://www.linkedin.com/posts/slobodan-gajic_typescript-javascript-tip-activity-6776034935955349504-lTs1",
+      "description": "✂️ Partial<Type> in TypeScript! ✂️",
+      "src": "../../assets/images/tips/typescript/interface vs type alias.gif"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/slobodan-gajic_typescript-interfaces-typealise-activity-6769518393096761344-Wdf3",
+      "description": "💪 Interfaces vs. Type Aliases in TypeScript! 💪 ",
+      "src": "../../assets/images/tips/typescript/interface vs type alias.gif"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/slobodan-gajic_typescript-tip-javascript-activity-6764447642324922368-fA67",
+      "description": "Type Guards in Typescript! 👋",
+      "src": "../../assets/images/tips/typescript/type guards.gif"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/slobodan-gajic_generics-typescript-javascript-activity-6759384817017651200-0rKs",
+      "description": "Generics in TypeScript!",
+      "src": "../../assets/images/tips/typescript/generics.gif"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/slobodan-gajic_typescript-javascripts-oop-activity-6755395242859540480-LCvE",
+      "description": "TypeScript Getters and Setters!",
+      "src": "../../assets/images/tips/typescript/getters and setters.gif"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/slobodan-gajic_typescript-ecmascript-javascript-activity-6749298292447883264-FrN7",
+      "description": "Optional chaining in TypeScript",
+      "src": "../../assets/images/tips/typescript/optional chaining.jpeg"
+    }
+  ]
+}

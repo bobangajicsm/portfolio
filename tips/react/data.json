@@ -1,18 +1,28 @@
-{"posts": [{
-    "url": "https://www.linkedin.com/posts/slobodan-gajic_react-javascript-tip-activity-6768411099860729856-vdJy",
-    "description": "How to handle errors with error boundaries in React?! 👌 ",
-    "src": "../../assets/images/tips/react/error boundaries.gif"
-  }, {
-    "url": "https://www.linkedin.com/posts/slobodan-gajic_react-lazyloading-javascript-activity-6763727942188093441-ABzP",
-    "description": "Code-Splitting in React! 🖖",
-    "src": "../../assets/images/tips/react/code spliting.gif"
-  }, {
-    "url": "https://www.linkedin.com/posts/slobodan-gajic_react-context-frontend-activity-6758286353374478336-aqeJ",
-    "description": "How to use Context in React !?",
-    "src": "../../assets/images/tips/react/context.gif"
-  }, {
-    "url": "https://www.linkedin.com/posts/slobodan-gajic_react-frontend-javascript-activity-6754749584376942592-gCDW",
-    "description": "How to programmatically navigate with React Router?",
-    "src": "../../assets/images/tips/react/routing.jpeg"
-  }]}
-
+{
+  "posts": [
+    {
+      "url": "https://www.linkedin.com/posts/slobodan-gajic_react-tip-components-activity-6775306830122926081-dwN-",
+      "description": "⚛️ How to build a custom button in React!? ⚛️",
+      "src": "../../assets/images/tips/react/custom-button.gif"
+    },{
+      "url": "https://www.linkedin.com/posts/slobodan-gajic_react-javascript-tip-activity-6768411099860729856-vdJy",
+      "description": "How to handle errors with error boundaries in React?! 👌 ",
+      "src": "../../assets/images/tips/react/error boundaries.gif"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/slobodan-gajic_react-lazyloading-javascript-activity-6763727942188093441-ABzP",
+      "description": "Code-Splitting in React! 🖖",
+      "src": "../../assets/images/tips/react/code spliting.gif"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/slobodan-gajic_react-context-frontend-activity-6758286353374478336-aqeJ",
+      "description": "How to use Context in React !?",
+      "src": "../../assets/images/tips/react/context.gif"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/slobodan-gajic_react-frontend-javascript-activity-6754749584376942592-gCDW",
+      "description": "How to programmatically navigate with React Router?",
+      "src": "../../assets/images/tips/react/routing.jpeg"
+    }
+  ]
+}

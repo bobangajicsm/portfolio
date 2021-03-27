@@ -1,21 +1,34 @@
-{"posts": [{
-    "url": "https://www.linkedin.com/posts/slobodan-gajic_angular-javascript-tip-activity-6770236055904944128-Oroh",
-    "description": "👋 Theming with CSS3 variables in Angular! 👋 ",
-    "src": "../../assets/images/tips/angular/theming-with-css.gif"
-  }, {
-    "url": "https://www.linkedin.com/posts/slobodan-gajic_angular-javascript-routeguards-activity-6765250892603166720-xr7L",
-    "description": "Route protection in Angular! 💪",
-    "src": "../../assets/images/tips/angular/route protection.gif"
-  }, {
-    "url": "https://www.linkedin.com/feed/update/urn:li:activity:6760097497869279232",
-    "description": "How to trigger change detection manually in Angular !?",
-    "src": "../../assets/images/tips/angular/change detection.gif"
-  }, {
-    "url": "https://www.linkedin.com/posts/slobodan-gajic_angular-javascripts-detectchanges-activity-6755789653992882176-GiKo",
-    "description": "How to detect input changes in Angular?",
-    "src": "../../assets/images/tips/angular/input changes.gif"
-  }, {
-    "url": "https://www.linkedin.com/posts/slobodan-gajic_angular-javascript-javascriptframework-activity-6753229450344759296-9miG",
-    "description": "How to access transcluded content in Angular❓",
-    "src": "../../assets/images/tips/angular/transcluded content.jpeg"
-  }]}
+{
+  "posts": [
+    {
+      "url": "https://www.linkedin.com/posts/slobodan-gajic_angular-javascript-tip-activity-6777850590371344384-zfeJ",
+      "description": "🌍 Plural localization in Angular! 🌍",
+      "src": "../../assets/images/tips/angular/plural-localization.gif"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/slobodan-gajic_angular-javascript-tip-activity-6770236055904944128-Oroh",
+      "description": "👋 Theming with CSS3 variables in Angular! 👋 ",
+      "src": "../../assets/images/tips/angular/theming-with-css.gif"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/slobodan-gajic_angular-javascript-routeguards-activity-6765250892603166720-xr7L",
+      "description": "Route protection in Angular! 💪",
+      "src": "../../assets/images/tips/angular/route protection.gif"
+    },
+    {
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:6760097497869279232",
+      "description": "How to trigger change detection manually in Angular !?",
+      "src": "../../assets/images/tips/angular/change detection.gif"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/slobodan-gajic_angular-javascripts-detectchanges-activity-6755789653992882176-GiKo",
+      "description": "How to detect input changes in Angular?",
+      "src": "../../assets/images/tips/angular/input changes.gif"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/slobodan-gajic_angular-javascript-javascriptframework-activity-6753229450344759296-9miG",
+      "description": "How to access transcluded content in Angular❓",
+      "src": "../../assets/images/tips/angular/transcluded content.jpeg"
+    }
+  ]
+}
